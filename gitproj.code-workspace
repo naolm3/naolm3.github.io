@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/pics"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gitproj"
+	}
+}
