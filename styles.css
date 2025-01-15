@@ -346,3 +346,11 @@ li{
     color: blue;
     margin-left: 50px;
 }
+.naolimg{
+    height: 480px;
+    position: absolute;
+    right: 300px;
+    top: 135px;
+    width: 250px;
+   
+}
