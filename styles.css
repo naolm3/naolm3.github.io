@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0 12px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(20deg, violet,blueviolet);
+    animation: gradientAnimation 3s ease infinite;
+    background-size: 400% 400%;
+
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.main{
+      color: violet;
+      margin-top: 2px;
+      width: 100%;
+      height: fit-content;
+      font-size: 150px;
+      font-family: "Jersey 15", serif;
+   
+}
+.Hello{
+    width: 30%;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 9px;
+    font-size: 25px;
+    color: violet;
+    font-family: "Kanit", serif;
+}
+.wave{
+    display: inline-block;
+    font-size: 30px;
+    animation: wave 500ms infinite ease-in-out;
+}
+   
+.firstsection{
+    background-color: purple;
+    
+    height: 500px;
+    padding: 100px 0 0 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+    
+}
+.strongword{
+    background-color: black;
+    font-weight: bolder;
+}
+p{
+    margin-top: 5px;
+    font-family: "Kanit", serif;
+    font-size: small;
+    margin-left: 9px;
+    width: 350px;
+    color: violet;
+
+}
+h2, h3, h5, h6, span {
+    color: grey;
+    text-align: center;
+    line-height: 1.25;
+
+}
+
+.name{
+    color: black;
+    font-family: "Lato", serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}   
+li{
+    list-style-type: none;
+} 
+.nav_link-list {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav_link-anchor{
+    margin: 0 12px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-link-anchor-prime{
+    background-color: purple;
+    padding: 8px 20px 8px 20px;
+    border-radius: 50px;
+    color: white;
+}
+.nav-link-anchor-prime:hover{
+    background-color: magenta;
+    transition: all 300ms ease-in-out;
+}
+@keyframes wave{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+    transform: rotate(0);
+    }
+}
+.section2{
+    margin-top: 100px;
+    height: 400px;
+}
+.imgcode{
+    width: 100%;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+
+}
+.colorchange{
+    font-size: 60px;
+    text-decoration: wavy;
+    margin-bottom: 40px;
+    color: blue;
+    font-family: "Jersey 15", serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+    height: 100%;
+    max-height: 275px;
+    
+}   
+.hoverhtml:hover{
+    filter: brightness(80%);  
+    opacity: 0.86; 
+    transform: scale(0.9); 
+    transition: all 300ms ease;
+
+}
+.hovercss:hover{
+    filter: brightness(80%); 
+    opacity: 0.86;  
+    transform: scale(0.9); 
+    transition: all 300ms ease;
+
+}
+.hoverjs:hover{
+    filter: brightness(80%);   
+    opacity: 0.86;  
+    transform: scale(0.9); 
+    transition: all 300ms ease;
+
+}
+.title{
+    position: relative;
+    bottom: 30px;
+}
+.fixhtml{
+    width: fit-content;
+    
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    transform: scale(0);
+    
+
+}
+.csshelp{
+    margin-left: 10px;
+}
+
+
+.totalsection:hover .space {
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+.section5{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.javapic{
+    border-radius: 900px;
+    height: 240px;
+    border-style: solid;
+}
+.pythonpic{
+    height: 240px;
+    border-radius: 900px;
+    border-style: solid;
+}
+.cpic{
+    border-radius: 900px;
+    height: 240px;
+    border-style: solid;
+}
+.movepics{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.colorchange2{
+    font-size: 60px;
+    text-decoration: wavy;
+    margin-bottom: 40px;
+    color: blue;
+    font-family: "Jersey 15", serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+  
+
+}
+.fixedimg{
+    height: 80px;
+    border-radius: 100%;
+    background-color: aqua;
+    position: fixed;
+    bottom: 20px;
+    right: 10px
+    
+}
+.backend{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 300px;
+    transform: scale(0);
+}
+.python{
+    margin-right: 5px;
+}
+.C{
+    margin-right: 30px;
+}
+
+.movepics:hover .backend{
+    transform: scale(1);
+}
+.totalarea:hover .backend{
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+
+}
+.javapic:hover{
+    filter: brightness(80%);   
+    opacity: 0.86;  
+    transform: scale(0.9); 
+    transition: all 300ms ease-in-out;
+}
+.pythonpic:hover{
+    filter: brightness(80%);   
+    opacity: 0.86;  
+    transform: scale(0.9); 
+    transition: all 300ms ease;
+}
+.cpic:hover {
+    filter: brightness(80%);   
+    opacity: 0.86;  
+    transform: scale(0.9); 
+    transition: all 300ms ease;
+}
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+.pdfpic{
+    box-shadow: 0 30px 100px black, 0 30px 100px black;
+}
+.words{
+    border: 3px solid red;
+}
+.resume{
+    font-size: larger;
+    font-size: 90px;
+    font-family: "Jersey 15", serif;
+
+}
+.move{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.last{
+    background-color: black;
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 300px 0 30px;
+    
+    
+}
+.githubcolor{
+    color: blue;
+    margin-left: 10px;
+}    
+
+.linkedincolor{
+    color: blue;
+    margin-left: 50px;
+}
+.emailcolor{
+    color: blue;
+    margin-left: 50px;
+}
